@@ -1,0 +1,114 @@
+@media (max-width:1100px)
+{
+    .nav
+    {
+        width: 100%;
+    }  
+    .detail1 p
+    {
+        width: 100%;
+    }
+    .detail2 p
+    {
+        width: 100%;
+    }
+    .discount
+    {
+        gap: 30px;
+       
+    }
+    .min1
+    {
+        width: 60%;
+        margin: auto;
+        border-radius: 25px;
+        overflow: hidden;
+    }
+}
+@media (max-width:900px)
+{
+    .mount
+    {
+        width: 100%;
+    }
+    .let p
+    {
+        width: 100%;
+    }
+
+    .explore .world
+    {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        margin-top: -500px;
+    }
+    .author p
+    {
+        width: 100%;
+    }
+    .titlehere p
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width:500px){
+    .nav{
+        
+    }
+    li{
+        display: none;
+    }
+    .info ul{
+        float: right;
+        padding-top: 25px;
+    }
+    .bars{
+        display: flex;
+    }
+ 
+    h1{
+        font-size: 60px;
+    }
+    .contact, p{
+        font-size: 20px;
+    }
+    .contact, button{
+        font-size: 15px;
+        width: 50%;
+    }
+    .contact, .para{
+        font-size: 15px;
+        width: 320px;
+    }
+    .min1
+    {
+        width: 95%;
+    }
+    .let p
+    {
+        width: 100%;
+    }
+    .detail1 p
+    {
+        width: auto;
+    }
+    .detail2
+    {
+        padding-left: 10px;
+    }
+    .detail2 p
+    {
+        width: auto;
+    }
+    .param1{
+        padding-left: 10px;
+        width: 90%;
+    }
+    .title2{
+        padding-top: 50px;
+    }
+
+
+}

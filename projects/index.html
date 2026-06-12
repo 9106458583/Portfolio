@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archive | Maulik Vora | Web Developer</title>
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png">
+    <meta name="description" content="A curated collection of professional work and technical experiments.">
+    <!-- Google Fonts: Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css?v=3.6">
+</head>
+
+<body class="subpage lux-theme">
+    <!-- Background Elements -->
+    <div class="bg-gradient">
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+        <div class="circle c3"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="scrolled">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <svg viewBox="0 0 100 40">
+                    <!-- Stylized MV Monogram -->
+                    <path class="logo-path" d="M15,35 L22,5 L40,35 L58,5 L70,30 L85,5" />
+                    <circle class="logo-dot" cx="15" cy="35" r="3" />
+                    <circle class="logo-dot" cx="85" cy="5" r="3" />
+                </svg>
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#experience">Experience</a></li>
+                <li><a href="#" class="active">Archive</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn" id="mobile-menu">
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Subpage Hero -->
+    <section class="subpage-hero">
+        <div class="container" style="padding-top: 50px;">
+            <h1 class="reveal">The <span>Archive</span></h1>
+            <p class="reveal delay-1">Exploring the intersection of high-end design and structural code.</p>
+        </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="filters-section">
+        <div class="container">
+            <div class="filter-group reveal delay-2">
+                <button class="filter-btn active" data-filter="project">All Projects</button>
+                <button class="filter-btn" data-filter="company">Company</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Gallery -->
+    <section class="projects-gallery section-padding">
+        <div class="container">
+            <div class="lux-grid" id="gallery-container">
+                <!-- Project: Sanelite (Company) -->
+                <div class="lux-card reveal company is-hidden">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/sanelite.png" alt="Sanelite Group">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">Enterprise</div>
+                            <div class="work-status current"><i class="fas fa-circle-dot"></i> Currently Working</div>
+                        </div>
+                        <h3>Sanelite Group</h3>
+                        <p>Scalable corporate architecture for a multi-industry leader in renewables and IT.</p>
+
+                        <a href="http://www.sanelitegroup.com/" target="_blank" class="view-btn">Visit Hub <i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project: Dsewa (Company) -->
+                <div class="lux-card reveal company delay-1 is-hidden">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/dsewa.png" alt="Dsewa Services">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">Fintech</div>
+                            <div class="work-status past"><i class="fas fa-check-circle"></i> Past Role</div>
+                        </div>
+                        <h3>Dsewa Services</h3>
+                        <p>Remittance and booking infrastructure focusing on security and transaction speed.</p>
+
+                        <a href="https://d-sewa.com/" target="_blank" class="view-btn">Visit Portal <i class="fas fa-link"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project: Tops (Company) -->
+                <div class="lux-card reveal company delay-2 is-hidden">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/tops.png" alt="Tops Technologies">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">EdTech</div>
+                            <div class="work-status past"><i class="fas fa-check-circle"></i> Past Role</div>
+                        </div>
+                        <h3>Tops Technologies</h3>
+                        <p>Large-scale educational platform supporting thousands of student placements.</p>
+
+                        <a href="https://www.tops-int.com/" target="_blank" class="view-btn">Visit Campus <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+           
+
+                <!-- Project: Sanelite Solar -->
+                <div class="lux-card reveal project delay-1">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/sanelite-solar.png" alt="Sanelite Solar">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">Solar</div>
+                            <div class="work-status live"><i class="fas fa-circle-dot" style="color: #2ecc71;"></i> Live Website</div>
+                        </div>
+                        <h3>Sanelite Solar</h3>
+                        <p>Live solar energy website presenting renewable solutions, services, and company information.</p>
+
+                        <a href="http://sanelitesolar.com/" target="_blank" class="view-btn">Visit Site <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project: Sanelite Cinemas -->
+                <div class="lux-card reveal project delay-2">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/sanelite-cinema.png" alt="Sanelite Cinemas">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">Cinema</div>
+                            <div class="work-status live"><i class="fas fa-circle-dot" style="color: #2ecc71;"></i> Live Website</div>
+                        </div>
+                        <h3>Sanelite Cinemas</h3>
+                        <p>Live cinema website for movie, venue, and customer-facing entertainment information.</p>
+
+                        <a href="http://www.sanelitecinemas.com/" target="_blank" class="view-btn">Visit Site <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project: Sanelite Workspace -->
+                <div class="lux-card reveal project delay-3">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/workspace.png" alt="Sanelite Workspace">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">Coworking Space</div>
+                            <div class="work-status live"><i class="fas fa-circle-dot" style="color: #2ecc71;"></i> Live Website</div>
+                        </div>
+                        <h3>Sanelite Workspace</h3>
+                        <p>Premium coworking office space solutions offering flexible cabins and dedicated desks.</p>
+
+                        <a href="https://saneliteworkspaces.com/" target="_blank" class="view-btn">Visit Site <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project: Domus Deals -->
+                <div class="lux-card reveal project">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/domus.png" alt="Domus Deals">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">Real Estate</div>
+                            <div class="work-status live"><i class="fas fa-circle-dot" style="color: #2ecc71;"></i> Live Website</div>
+                        </div>
+                        <h3>Domus Deals</h3>
+                        <p>Modern property management and real estate marketplace for finding premium housing and land deals.</p>
+
+                        <a href="https://domusdeals.in/" target="_blank" class="view-btn">Visit Site <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project: Spaceflex -->
+                <div class="lux-card reveal project delay-1">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/interiar.png" alt="Spaceflex">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">Interior Design</div>
+                            <div class="work-status live"><i class="fas fa-circle-dot" style="color: #2ecc71;"></i> Live Website</div>
+                        </div>
+                        <h3>Spaceflex</h3>
+                        <p>High-end interior design and build studio website presenting turnkey fit-outs and custom commercial layouts.</p>
+
+                        <a href="http://spaceflex.in/" target="_blank" class="view-btn">Visit Site <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                     <!-- Project: Dsewa Bus -->
+                <div class="lux-card reveal project">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/dsewa-bus.png" alt="Dsewa Bus">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">Travel</div>
+                            <div class="work-status live"><i class="fas fa-circle-dot" style="color: #2ecc71;"></i> Live Website</div>
+                        </div>
+                        <h3>Dsewa Bus</h3>
+                        <p>Live bus booking platform with route discovery, booking flow, and travel service features.</p>
+
+                        <a href="https://dsewabus.com/" target="_blank" class="view-btn">Visit Site <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project: Dsewa -->
+                <div class="lux-card reveal project delay-2">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/dsewa.png" alt="Dsewa">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">Fintech</div>
+                            <div class="work-status live"><i class="fas fa-circle-dot" style="color: #2ecc71;"></i> Live Website</div>
+                        </div>
+                        <h3>Dsewa</h3>
+                        <p>Remittance and booking infrastructure focusing on secure transaction speed and payment options.</p>
+
+                        <a href="https://d-sewa.com/" target="_blank" class="view-btn">Visit Site <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project: Bootstrap -->
+                <div class="lux-card reveal project">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/Bootstrapproject 3.png" alt="Bootstrap Project">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">Bootstrap</div>
+                            <div class="work-status past"><i class="fas fa-check-circle"></i> Completed</div>
+                        </div>
+                        <h3>Bootstrap Project</h3>
+                        <p>A responsive website layout built with Bootstrap components and polished page sections.</p>
+
+                        <a href="BOOTSTRAPPROJECT/index.html" target="_blank" class="view-btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project: Flex -->
+                <div class="lux-card reveal project delay-1">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/Flex Project 1.png" alt="Flex Project">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">Flexbox</div>
+                            <div class="work-status past"><i class="fas fa-check-circle"></i> Completed</div>
+                        </div>
+                        <h3>Flex Project</h3>
+                        <p>A modern page structure focused on flexible content alignment and responsive spacing.</p>
+
+                        <a href="flexproject/home.html" target="_blank" class="view-btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project: Grid -->
+                <div class="lux-card reveal project delay-2">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/Grid Project 2.png" alt="Grid Project">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">CSS Grid</div>
+                            <div class="work-status past"><i class="fas fa-check-circle"></i> Completed</div>
+                        </div>
+                        <h3>Grid Project</h3>
+                        <p>A grid-based website layout using strong image placement and clean responsive structure.</p>
+
+                        <a href="gridproject/home.html" target="_blank" class="view-btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project: PSD -->
+                <div class="lux-card reveal project">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/psd.png" alt="PSD Project">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">PSD to HTML</div>
+                            <div class="work-status past"><i class="fas fa-check-circle"></i> Completed</div>
+                        </div>
+                        <h3>PSD Project</h3>
+                        <p>A design-to-code conversion with structured sections, custom assets, and responsive styling.</p>
+
+                        <a href="PSD/main.html" target="_blank" class="view-btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project: PSD to HTML -->
+                <div class="lux-card reveal project delay-1">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/PSDtoHTMLProject 6.png" alt="PSD to HTML Project">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">Template</div>
+                            <div class="work-status past"><i class="fas fa-check-circle"></i> Completed</div>
+                        </div>
+                        <h3>PSD to HTML Project</h3>
+                        <p>A hiking concept template converted into a clean static website experience.</p>
+
+                        <a href="PSD TO HTML PROJECT/main.html" target="_blank" class="view-btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project: Figma -->
+                <div class="lux-card reveal project delay-2">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/Figma project 5.png" alt="Figma Project">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">Figma</div>
+                            <div class="work-status past"><i class="fas fa-check-circle"></i> Completed</div>
+                        </div>
+                        <h3>Figma Project</h3>
+                        <p>A payment information screen recreated from Figma into a functional HTML layout.</p>
+
+                        <a href="FIGMAPROJECT/payment info figma to html/index.html" target="_blank" class="view-btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project: Consultio -->
+                <div class="lux-card reveal project">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/webimg.png" alt="Consultio Project">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">Business</div>
+                            <div class="work-status past"><i class="fas fa-check-circle"></i> Completed</div>
+                        </div>
+                        <h3>Consultio</h3>
+                        <p>A business consulting website with service, portfolio, testimonial, and landing sections.</p>
+
+                        <a href="consultio/consultio.html" target="_blank" class="view-btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project: University -->
+                <div class="lux-card reveal project delay-1">
+                    <div class="project-img">
+                        <img src="../assets/images/thumbnails/webimg1.png" alt="University Project">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header-meta">
+                            <div class="project-tag">Education</div>
+                            <div class="work-status past"><i class="fas fa-check-circle"></i> Completed</div>
+                        </div>
+                        <h3>University Project</h3>
+                        <p>An education website concept with course, event, blog, and institutional content sections.</p>
+
+                        <a href="univercity/univercity.html" target="_blank" class="view-btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Maulik Vora Portfolio. Engineered for Excellence.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/maulik-vora-b5759925b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/9106458583" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/maulik__vora" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/script.js?v=2.1"></script>
+    <script>
+        // Filter Logic
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const cards = document.querySelectorAll('.lux-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const filter = btn.getAttribute('data-filter');
+
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                cards.forEach(card => {
+                    if (filter === 'all' || card.classList.contains(filter)) {
+                        card.classList.remove('is-hidden');
+                    } else {
+                        card.classList.add('is-hidden');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

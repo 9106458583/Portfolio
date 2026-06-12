@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a
+{
+    background-color: #a8d741 
+}
+.navbar-brand
+{
+    background-color: transparent;
+}
+.main-head
+{
+    background-color: #a8d741 ;
+    border: none;
+}
+
+.our-feature,
+.about,
+.p-2
+{
+    border: none;
+}
+.tools,
+.video,
+.form,
+.get-start-1,
+.buy-now,
+.card-6-btn-1
+{
+    background-color: #a8d741;
+}
+.order-now
+{
+    font-size: 60px;
+}
+.section-4,
+.section-5,
+.section-6,
+.contact,
+.phone
+{
+    background-color: rgb(234, 234, 234);
+}
+.card-9,.card-10,.card-11
+{
+    background-color:#eeeeee;
+}
+.gs-1,
+.profile
+{
+    background-color: transparent;
+}
+
+.get-start-1:hover,
+.get-start-2:hover,
+.buy-now:hover,
+.card-6-btn-1:hover
+{   
+    transition: 0.3s;
+    background-color: white;
+    box-shadow: 0 27px 30px -20px #000000 ;
+    transform: scale(1.1) rotateX(1deg) rotateY(0deg) rotateZ(4deg);
+    color: #000000 ;
+}
+.get-start-2:hover
+{   
+    transition: 0.3s;
+    background-color: white !important;
+    box-shadow: 0 27px 30px -20px #000000 ;
+    transform: scale(1.1) rotateX(1deg) rotateY(0deg) rotateZ(4deg);
+    color: #000000 !important;
+    border-color: #000000 !important;
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover,
+.card-4:hover,
+.card-5:hover,
+.card-6:hover,
+.card-7:hover,
+.card-8:hover,
+.card-9:hover,
+.card-10:hover,
+.card-11:hover,
+.card-12:hover,
+.card-13:hover,
+.card-14:hover
+{   
+    transition: 0.3s;
+    transform: rotate(-2deg) scale(1.03);
+    box-shadow: 0 27px 30px -20px #000000 ;
+}
+.card-1-btn-1:hover,
+.card-1-btn-2:hover,
+.card-2-btn-1:hover,
+.card-2-btn-2:hover
+{    
+
+    transition: 0.3s;
+    background-color: #a8d741 !important;
+    box-shadow: 0 27px 30px -20px #000000 ;
+    transform: scale(1.1) rotateX(1deg) rotateY(0deg) rotateZ(4deg);
+}
+

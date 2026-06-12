@@ -1,0 +1,103 @@
+@media(max-width:600px){
+    .nav1-left{
+        display: none
+    }
+    .nav1{
+        /* display: grid; */
+        padding: 0;
+        grid-template-columns: 1fr 2fr;
+        /* column-gap: 100%; */
+    }
+    .bar{
+        display: block;
+        padding: 6px;
+        font-size: 20px;
+    }
+    .bar a{
+        color: gainsboro;
+    }
+
+
+    .nav2{
+        grid-template-columns: 1fr;
+    }
+    .nav2-right{
+        display: none
+    }
+    
+
+    .event{
+        grid-template-columns: 1fr 1fr;
+        padding: 162px 20px;
+        
+    }
+    .event-box-3,.event-box-4,.event-box-5,.event-box-6,.event-box-7,.event-box-8{
+        display: none;
+    }
+    .event-box-1{
+        padding-bottom: 30px;
+    }
+    .event-box-2{
+        padding: 0;
+    }
+    .date{
+        padding: 12px;
+    }
+    .cnt-nm .fa-arrow-right{
+        margin-left: 60%;
+    }
+    .event-box-cnt{
+        top: 55%;
+    }
+    .event-box-2:hover .event-box-cnt{
+        top: 30%;
+    }
+    .icon{
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+    .star-edu{
+        grid-template-columns: 1fr;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-cnt{
+        grid-template-columns: 1fr;
+    }
+    .creater-nm{
+        padding: 100px 20px;
+        margin-top: 600px;
+    }
+    .creater{
+        padding-top: 100px;
+    }
+    .creater-dtl{
+        padding: 0 50px;
+    }
+    .footer{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer-icon{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .footer-icon-in{
+        /* margin-top: 20px; */
+    }
+    .enr-cnt{
+        grid-template-columns: 1fr;
+    }
+    .footer-fc{
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    .footer-fc-tw{
+        margin: 0;
+        margin-top: 20px;
+    }
+}

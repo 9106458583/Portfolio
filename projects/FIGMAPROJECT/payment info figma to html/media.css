@@ -1,0 +1,245 @@
+@media(max-width:600px) {
+    .nav-bar {
+        grid-template-columns: 1fr 2fr;
+        padding: 0 0px;
+    }
+
+    .navlogo {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+
+    .navitems {
+        display: none;
+    }
+
+    .mainpagebanner {
+        grid-template-columns: 1fr;
+        padding-top: 0px;
+        padding: 0px;
+    }
+
+    .navbtn {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5px;
+        text-align: center;
+    }
+
+    .navbtn button {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    .bannerimg {
+        height: 250px;
+        background-position: center;
+        margin-top: 20px;
+    }
+
+    .bannerinfo p:first-child {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .bannerinfo p:nth-child(2) {
+        font-size: 10px;
+    }
+
+
+
+
+
+
+
+    .page2banner {
+        padding-bottom: 50px;
+    }
+
+    .page2title p:first-child {
+        font-size: 40px;
+    }
+
+    .page2title p:last-child {
+        font-size: 15px;
+        margin: 0 0px;
+    }
+
+    .pageimgs {
+        margin-top: 50px;
+        padding: 20px;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+
+
+    .page3banner {
+        height: 30vh;
+    }
+
+    .backimg1 {
+        height: 100px;
+        width: 100px;
+    }
+
+    .backimg2 {
+        height: 180px;
+        width: 280px;
+    }
+
+    .backimg3 {
+        height: 70px;
+        width: 100px;
+    }
+
+    .page3info {
+        top: 0px;
+        width: 40%;
+    }
+
+    .page3info p {
+        margin: 10px 0;
+    }
+
+    .page3info p:first-child {
+        font-size: 15px;
+        padding-right: 0px;
+
+    }
+
+    .page3info p:nth-child(2) {
+        font-size: 10px;
+        margin-right: 0px;
+    }
+
+    .page3info p:last-child {
+        font-size: 18px;
+    }
+
+    .page4title p:first-child {
+        font-size: 22px;
+    }
+
+    .page4title p:last-child {
+        font-size: 15px;
+        margin: 40px 0;
+    }
+
+    .page4info {
+        padding: 10px;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .p4contentinfo {
+        margin: 0 0;
+        column-gap: 10px;
+    }
+
+    .p4contentimginfo p:first-child {
+        font-size: 20px;
+    }
+
+    .p4contentimginfo p:last-child {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .page5banner {
+        padding: 10px;
+        height: 26vh;
+    }
+
+    .p5img1 {
+        height: 100px;
+        width: 90px;
+        top: 10px;
+        left: 50px;
+    }
+
+    .p5img2 {
+        height: 160px;
+        width: 150px;
+        bottom: -80px;
+        left: 200px;
+    }
+
+    .p5img3 {
+        height: 100px;
+        width: 90px;
+        top: 10px;
+        right: 100px;
+    }
+
+    .page5info {
+        padding: 0px;
+    }
+
+    .page5info1 {
+        padding: 5px;
+        padding-right: 0px;
+    }
+
+    .page5info2 {
+        padding: 10px;
+    }
+
+    .page5info1 p:first-child {
+        font-size: 17px;
+    }
+
+    .page5info1 p:last-child {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    .page5info1 p {
+        margin: 20px 0;
+    }
+
+    .page5info2 {
+        gap: 10px;
+    }
+
+    .page5maininfo {
+        padding: 5px;
+    }
+
+    .p5info {
+        font-size: 10px;
+        padding-right: 0px;
+    }
+
+
+    .p5imginfo {
+        padding: 5px;
+        gap: 5px;
+    }
+
+    .p5infoimginfo {
+        padding: 2px;
+    }
+
+    .p5infoimginfo p {
+        margin: 2px 0;
+    }
+
+    .p5infoimginfo p:first-child {
+        font-size: 8px;
+    }
+
+    .p5infoimginfo p:last-child {
+        font-size: 8px;
+    }
+    footer{
+        grid-template-columns: 1fr;
+    }
+}

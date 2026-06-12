@@ -1,0 +1,411 @@
+@media (max-width:500px) {
+    .mail1 {
+        display: block;
+    }
+
+    .mail2 {
+        display: block;
+    }
+    .navbar2 {
+        display: block;
+    }
+
+    .textmain {
+        font-size: 50px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .fund {
+        font-size: 50px;
+    }
+
+    .inter {
+        font-size: 16px;
+    }
+
+    .ourterm {
+        padding: 10px 50px;
+    }
+
+    .subback {
+        height: 900px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .tree {
+        display: none;
+    }
+
+    .tree1 {
+        display: none;
+    }
+
+    .tree2 {
+        display: none;
+    }
+
+    .layout2 {
+        top: 225px;
+    }
+
+    .section3 {
+        display: block;
+        height: 250px;
+        margin: 60px;
+    }
+
+    .section31 {
+        width: 100%;
+    }
+
+    .section32 {
+        width: 100%;
+        visibility: hidden;
+    }
+
+    .section33 {
+        width: 100%;
+        visibility: hidden;
+    }
+
+    .rd {
+        display: none;
+    }
+
+    .read {
+        width: 62%;
+    }
+
+    .layout3 img {
+        width: 100%;
+        height: 600px;
+        background-size: contain;
+    }
+
+    .choos {
+        left: 10px;
+    }
+
+    .choos1 {
+        left: 10px;
+        width: 100%;
+    }
+
+    .mxbtn {
+        left: 100px;
+        top: 425px;
+    }
+
+    .mxbtn::after {
+        content: "";
+        background: rgba(70, 225, 18, 0.5);
+    }
+
+    .icontxt {
+        left: 300px;
+        top: 300px;
+    }
+
+    .icontxt1 {
+        left: 300px;
+        top: 450px;
+    }
+
+    .lonav {
+        background: black;
+        top: 0;
+        left: 0;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .header1 {
+        display: none;
+    }
+
+     .logo img {
+        object-fit: contain;
+        padding: 10px;
+    }
+
+    .shop {
+        display: block;
+    }
+
+    .list {
+        display: block;
+    }
+
+    .Serv2 {
+        font-size: 16px;
+        width: 350px;
+    }
+
+    .sssectsub2 {
+        width: 100%;
+    }
+
+    .setsub21 {
+        width: 100%;
+    }
+
+    .setsub22 {
+        width: 100%;
+    }
+
+    .setsub23 {
+        width: 100%;
+    }
+
+    .setsub24 {
+        width: 100%;
+    }
+
+    .setsub25 {
+        width: 100%;
+    }
+
+    .setsub26 {
+        width: 100%;
+    }
+
+    .sectsub3 {
+        margin-top: 1200px;
+    }
+
+    .s5txt1 {
+        font-size: 29px;
+    }
+
+    .sect51 {
+
+        padding-left: 10px;
+        width: 4000rem;
+    }
+
+    .sect52 {
+        margin-left: 0;
+        /* display: block; */
+        width: 4000rem;
+    }
+
+    .section5 {
+        display: block;
+    }
+
+    .s5text1 {
+        font-size: 30px;
+    }
+
+    .section5 {
+        height: 1604px;
+    }
+
+    .sect5back {
+        height: 1604px;
+    }
+
+    .from {
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .td1 {
+        width: 100%;
+        margin-left: 0;
+
+    }
+
+    .area {
+        width: 100%;
+        height: 150px;
+
+    }
+
+    .submit {
+        margin-left: 0;
+    }
+
+    .send {
+
+        margin-left: 0;
+        padding: 10px 200px;
+
+    }
+
+    .input {
+        margin-left: 0;
+    }
+
+    .area {
+        margin-left: 0;
+    }
+
+    .section63 {
+        margin-left: 0px;
+        width: 100%;
+        display: none;
+        line-height: 20px;
+
+    }
+
+    .sec6sub2 {
+        display: block;
+        width: 100%;
+        margin-left: 25px;
+    }
+
+    .secimg2 {
+        background-size: cover;
+    }
+
+    .sec6sub3 {
+        display: none;
+    }
+
+    .sec6sub4 {
+        display: none;
+    }
+
+    .photo41 {
+        width: 50%;
+        margin-left: 40px;
+
+    }
+
+    .photo42 {
+        width: 50%;
+    }
+
+    .photo43 {
+        display: none;
+    }
+
+    .photo44 {
+        display: none;
+    }
+
+    .logolight {
+        margin-left: 0;
+    }
+
+    .sect7address {
+        padding-left: 0;
+    }
+
+    .open {
+        margin-left: 0;
+    }
+
+    .time {
+        margin-left: 0;
+    }
+
+    .section7 {
+        width: 100%;
+        height: 1500px;
+        background-attachment: unset;
+    }
+
+    .sect7back {
+        height: 1500px;
+    }
+
+    .sect7nav1 {
+        width: 70%;
+        margin-top: -200px;
+        margin-left: -100px;
+    }
+    .sect7newset{
+        margin-left: 70px;
+    }
+
+    .navendulli {
+        display: block;
+    }
+
+    .navul1 {
+        overflow: hidden;
+        width: 30%;
+        margin-left: 25px;
+    }
+
+    .navul2 {
+        margin-left: 20px;
+        width: 30%;
+    }
+
+    .sect7div3 {
+        margin-top: -230px;
+    }
+
+    .link {
+        margin-left: 20px;
+        margin-top: -60px;
+    }
+    .subback
+{
+    width:100%;
+    height: 700px;
+}
+.choos
+{font-weight: bold;}
+
+.choos1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.section63{
+    width: 90%;
+    
+}
+.sec6sub2
+{
+    margin-top: 90px;
+}
+.input
+{
+    width: 90%;
+    margin-left: 17px;
+}
+.submit{
+    width: 80%;
+    margin-left: 0px;
+}
+.send{padding: 5px 180px;}
+
+.textmain
+{
+    margin-top: 250px;
+    width: 70%;
+    font-size: 45px;
+    padding-left: 15px;
+}
+.inter
+{
+    padding-top: 10px;
+    width: 120%;
+}
+.layout2
+{
+    margin-top: -200px;
+}
+.read{
+    margin-top: 57px;
+}
+.ly2text1
+{
+    margin-top: 50px;
+    /* width: 80%; */
+}
+.sect52
+{
+    margin-top: -200px;
+}
+
+}

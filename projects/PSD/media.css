@@ -1,0 +1,97 @@
+@media(max-width:500px)
+{
+   .nav ul{
+        display: none;
+    }
+    .nav .bars{
+        display: block;
+    }
+    .brunch{
+        width: 480px;
+    }
+    .brunch p{
+        font-size:80px ;
+    }
+    .brunch h1{
+       font-size: 50px;
+    }
+    .flavoursmain
+    {
+        padding: 0;
+    }
+    .traditional .x
+    {
+        width: 100%;
+        height: 300PX;
+    }
+    .new{
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    .one, .two, .three{
+        width: 100%;
+    }
+    .para3{
+        text-align: center;
+    }
+    .traditional h6{
+        text-align: center;
+    }
+    .menu{
+        width: 100%;
+    }
+    .info1{
+        width: 100%;
+    }
+    .info2{
+        width: 100%;
+    }
+    .discover1{
+        height: 300px;
+    }
+    .cuisine
+    {
+        padding: 50PX;
+    }
+    .cuisine p
+    {
+        width: 100%;
+    }
+    .cuisine ul li
+    {
+        margin: 0 15PX;
+    }
+    .cuisine .image1, .image2
+    {
+        display: none;
+    }
+    .dishes{
+        flex-wrap: wrap;
+    }
+    .menu1, .menu2{
+        width: 100%;
+    }
+    .discover2{
+        height: 500px;
+    }
+    .menuorder{
+        flex-wrap: wrap;
+    }
+    .food1{
+        width: 100%;
+    }
+    .aboutus{
+        flex-wrap: wrap;
+    }
+    .goal{
+        width: 30%;
+    gap: 50px;
+    }
+    .al1{
+        width: 100%;
+    }
+    .fooddetail div
+    {
+        border-bottom:none;
+    }
+}
