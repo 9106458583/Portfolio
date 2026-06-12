@@ -201,7 +201,12 @@ document.addEventListener('DOMContentLoaded', () => {
             submitBtn.innerHTML = 'Negotiating with server... <i class="fas fa-spinner fa-spin"></i>';
 
             try {
-                const response = await fetch('http://localhost:3000/api/contact', {
+                const hostname = window.location.hostname;
+                const apiUrl = (hostname === 'localhost' || hostname === '127.0.0.1')
+                    ? 'http://localhost:3000/api/contact'
+                    : '/api/contact';
+
+                const response = await fetch(apiUrl, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
