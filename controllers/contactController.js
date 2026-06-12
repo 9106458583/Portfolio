@@ -131,10 +131,9 @@ exports.submitContactForm = async (req, res) => {
                 `</div>`
         };
 
-        // Send email asynchronously without blocking the client response
-        transporter.sendMail(mailOptions)
-          .then(info => console.log(`[Email] Notification sent: ${info.messageId}`))
-          .catch(err => console.error('[Email] Failed to send email alert:', err.message));
+        // Send email and wait for completion (required for Serverless environments like Vercel)
+        const info = await transporter.sendMail(mailOptions);
+        console.log(`[Email] Notification sent: ${info.messageId}`);
 
       } catch (emailErr) {
         console.error('[Email] SMTP initialization error:', emailErr.message);
