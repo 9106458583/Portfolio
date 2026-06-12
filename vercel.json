@@ -1,3 +1,34 @@
 {
-  "cleanUrls": true
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/contact.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "assets/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "projects/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/contact",
+      "dest": "api/contact.js"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "index.html"
+    }
+  ]
 }
